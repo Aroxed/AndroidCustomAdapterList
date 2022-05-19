@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:id="@+id/text_container">
-
+    android:orientation="vertical">
 
 
     <TextView
+        android:id="@+id/name_text_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/name_text_view"
         android:gravity="bottom"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        tools:text="Placeholder Name"
-        />
+        tools:text="Placeholder Name" />
 
     <TextView
+        android:id="@+id/age_text_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/age_text_view"
         android:gravity="top"
-        android:textSize="18sp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:paddingStart="10dp"
+        android:paddingLeft="10dp"
         android:paddingEnd="10dp"
-        tools:text="Placeholder Age"
-        />
+        android:paddingRight="10dp"
+        android:textSize="18sp"
+        tools:text="Placeholder Age" />
 
 
 </LinearLayout>
